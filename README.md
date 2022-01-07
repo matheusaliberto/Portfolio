@@ -8,5 +8,5 @@
     Criação de um protótipo para organizar as idéias.   
  ### Dia 06/01/2022
     Desenvolvimento do estilo do site.
-     Organizando o html para a adição do conteúdo.
+    Organizando o html para a adição do conteúdo.
  
