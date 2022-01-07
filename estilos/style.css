@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+:root {
+    --cor00: black;
+
+}
+body{
+    margin: 0px;
+    background-image: linear-gradient(to bottom, rgb(85, 85, 85), black ,rgb(85, 85, 85));
+}
+header{
+    padding: 5px;
+    background-image: linear-gradient(to bottom, rgb(85, 85, 85), black,rgb(85, 85, 85));
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+span.menuesq{
+    font-size: 25px;
+    font-weight: bold;
+}
+span.menudir{
+    margin: auto 0 auto 0;
+    float: right;
+    vertical-align: middle;
+}
+header > span > a{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+header > span > a:hover{
+    background-color: rgb(155, 155, 155);
+    color:rgb(43, 42, 42);
+    border-color: rgb(155, 155, 155);
+    font-weight: bold;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    min-width: 250px;
+    max-width: 900px;
+}
+article{
+    height: 250px;
+    border: 1px solid rgb(0, 0, 0);
+}
+img{
+    height: 50px;
+    float: left;
+}
+footer{
+    background-image: linear-gradient(to bottom, rgb(85, 85, 85), black);
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+footer > p{
+    padding-top: 10px;
+}
