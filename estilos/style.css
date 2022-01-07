@@ -4,9 +4,10 @@
     --cor00: black;
 
 }
+
 body{
-    margin: 0px;
     background-image: linear-gradient(to bottom, rgb(85, 85, 85), black ,rgb(85, 85, 85));
+    height: 100vh;
 }
 header{
     padding: 5px;
@@ -49,13 +50,37 @@ main{
     max-width: 900px;
 }
 article{
-    height: 250px;
     border: 1px solid rgb(0, 0, 0);
 }
-img{
-    height: 50px;
+/* Parte introdução */
+.intro > h2{
+    display: inline-block;
+    margin: 5px;
+}
+.intro > p{
+    margin: 2px;
+}
+.intro > img{
+    height: 100px;
     float: left;
 }
+
+/* Parte Projeto */
+.proj > nav > img{
+    height: 25px;
+    float: left;
+}
+
+/* Parte Formação */
+.form > nav > img{
+    height: 25px;
+    float: left;
+}
+
+/* Parte Experiências */
+
+
+
 footer{
     background-image: linear-gradient(to bottom, rgb(85, 85, 85), black);
     height: 50px;
