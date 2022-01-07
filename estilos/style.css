@@ -63,6 +63,14 @@ article{
 .intro > img{
     height: 100px;
     float: left;
+    border-radius: 30px;
+}
+.contatos > a{
+    text-decoration: none;
+}
+.contatos > a > img{
+    width: 48px;
+    height: 48px;
 }
 
 /* Parte Projeto */
