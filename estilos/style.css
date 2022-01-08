@@ -81,7 +81,7 @@ main{
     text-align: center;
     border: 1px solid black;
     min-width: 250px;
-    max-width: 900px;
+    max-width: 90%;
 }
 article{
     border: 1px solid rgb(0, 0, 0);
@@ -95,9 +95,10 @@ article{
     margin: 2px;
 }
 .intro > img{
-    height: 100px;
+    margin: 5px;
+    height: 130px;
     float: left;
-    border-radius: 30px;
+    border-radius: 65px;
 }
 .contatos{
     font-weight: bold;
@@ -108,9 +109,28 @@ article{
 }
 
 /* Parte Projeto */
-.proj > nav > img{
-    height: 25px;
-    float: left;
+.container{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+.proj h2{
+    display: block;
+    width: 100%;
+}
+.container nav{
+    border-radius: 4px;
+    margin: 2px 1px 5px 2px;
+    align-items: center;
+    padding: 5px;
+    width: 40%;
+    box-shadow: 2px 2px 5px black;
+}
+.container > nav > img{
+    margin: auto;
+    height: 7em;
 }
 
 /* Parte Formação */
