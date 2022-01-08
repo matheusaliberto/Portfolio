@@ -10,13 +10,18 @@
 </head>
 <body>
     <header>
-        <span class="menuesq">
+        <nav class="logo">
             Matheus Francisco
-        </span>
-        <span class="menudir">
-            <a href="#">Início</a>
-            <a href="#">Projetos</a>
-            <a href="#">Contatos</a>
+        </nav>
+        <button class="btn-menu">&#9776;</button>
+        <span class="menu">
+            <a class="fechar">x</a>
+            <ul class="">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+            
         </span>
     </header>
     <main>
@@ -26,29 +31,27 @@
             <p>
                 Me chamo Matheus Henrique Aliberto de Francisco, sou brasileiro e tenho 21 anos. Estudo Eng. da Computação na Unicamp e atualmente moro em Araraquara/SP. Gosto muito de programar tanto em front-end, como em back-and. Sou entusiasta e me adapto facil, pronto para receber qualquer desafio.
             </p>
-            <p>
-                <nav class="contatos">
-                    Contatos:
-                    <a href="">
-                        <img class = "intro-cont" src="imagens/gmail.png" alt="Meu gmail">
+            <nav class="contatos">
+                Contatos:
+                <a href="">
+                    <img class = "intro-cont" src="imagens/gmail.png" alt="Meu gmail">
+                </a>
+                <a href="">
+                    <img class = "intro-cont" src="imagens/linkedin.png" alt="Meu Linkedin">
+                </a>
+                <a href="https://github.com/matheusaliberto" target="_blank">
+                    <img class = "intro-cont" src="imagens/github.png" alt="Meu github">
                     </a>
-                    <a href="">
-                        <img class = "intro-cont" src="imagens/linkedin.png" alt="Meu Linkedin">
-                    </a>
-                    <a href="https://github.com/matheusaliberto" target="_blank">
-                        <img class = "intro-cont" src="imagens/github.png" alt="Meu github">
-                     </a>
-                    <a href="">
-                        <img class = "intro-cont" src="imagens/whastapp.png" alt="Meu whatsapp">
-                    </a> 
-                    <a href="">
-                        <img class = "intro-cont" src="imagens/discord.png" alt="Meu discord">
-                    </a> 
-                    <a href="https://www.instagram.com/suec.exe/" target="_blank">
-                        <img class = "intro-cont" src="imagens/insta.png" alt="Meu instagram">
-                    </a>  
-                </nav>
-            </p>
+                <a href="">
+                    <img class = "intro-cont" src="imagens/whastapp.png" alt="Meu whatsapp">
+                </a> 
+                <a href="">
+                    <img class = "intro-cont" src="imagens/discord.png" alt="Meu discord">
+                </a> 
+                <a href="https://www.instagram.com/suec.exe/" target="_blank">
+                    <img class = "intro-cont" src="imagens/insta.png" alt="Meu instagram">
+                </a>  
+            </nav>
         </article>
         <article class="proj">
             <h2>Projetos</h2>
@@ -99,5 +102,16 @@
     <footer>
         <p>site criado por Matheus Francisco</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").fadeIn();
+            $(".btn-menu").fadeOut();
+        });
+        $(".fechar").click(function(){
+            $(".menu").fadeOut();
+            $(".btn-menu").fadeIn();
+        });
+    </script>
 </body>
 </html>
