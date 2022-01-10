@@ -107,16 +107,38 @@ article{
     border-radius: 65px;
 }
 .contatos{
+    margin-top: 20px;
+    text-align: center;
     font-weight: bold;
-    display:inline-block;
-    float: center;
+    display:block;
 
+
+}
+
+.contatos div{
+    display: inline-flex;
+    flex-direction: row;
+}
+.contatos a{
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    
 }
 .contatos a img{
-    width: 28px;
-    height: 28px;
+    width: 100%;
 }
-
+/*Conhecimento*/
+.conhecimento {
+    margin-top: 20px;
+    font-weight: bold;
+    display:block;
+    text-align: left;
+}
+.conhecimento img{
+    width: 48px;
+    height: 48px;
+}
 /* Parte Projeto */
 .container{
     padding: 5px;
