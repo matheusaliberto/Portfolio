@@ -10,59 +10,46 @@
 </head>
 <body>
     <header>
-        <nav class="logo">
-            Matheus Francisco
-        </nav>
-        <button class="btn-menu">&#9776;</button>
-        <span class="menu">
-            <a class="fechar">x</a>
-            <ul class="">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contatos</a></li>
-            </ul>
-            
-        </span>
+            <a href="#">Início</a>
+            <a href="#">Projetos</a>
+            <a href="#">Contatos</a>
     </header>
     <main>
-        <article class="intro">
+        <section>
             <h2>Sobre</h2>
-            <img  src="imagens/Eu_2.jpeg" alt="Minha foto">
+            <img  src="imagens/xx.jpeg" alt="Minha foto">
             <p>
                 Me chamo Matheus Henrique Aliberto de Francisco, sou brasileiro e tenho 21 anos. Estudo Eng. da Computação na Unicamp e atualmente moro em Araraquara/SP. Gosto muito de programar tanto em front-end, como em back-and. Sou resiliente, entusiasta e me adapto facilmente. 
             </p>
-            <nav class="contatos">
-                <div>
-                    <h3>Contatos:</h3>
-                    <a href="mailto:matheushenrique612@gmail.com" target="_blank">
-                        <img class = "intro-cont" src="imagens/gmail.png" alt="Meu gmail">
+            <div>
+                <h3>Contatos:</h3>
+                <a href="mailto:matheushenrique612@gmail.com" target="_blank">
+                    <img class = "intro-cont" src="imagens/gmail.png" alt="Meu gmail">
+                </a>
+                <a href="https://www.linkedin.com/in/matheus-francisco-a5bb1a218/" target="_blank">
+                    <img class = "intro-cont" src="imagens/linkedin.png" alt="Meu Linkedin">
+                </a>
+                <a href="https://github.com/matheusaliberto" target="_blank">
+                    <img class = "intro-cont" src="imagens/github.png" alt="Meu github">
                     </a>
-                    <a href="https://www.linkedin.com/in/matheus-francisco-a5bb1a218/" target="_blank">
-                        <img class = "intro-cont" src="imagens/linkedin.png" alt="Meu Linkedin">
-                    </a>
-                    <a href="https://github.com/matheusaliberto" target="_blank">
-                        <img class = "intro-cont" src="imagens/github.png" alt="Meu github">
-                        </a>
-                    <a href="">
-                        <img class = "intro-cont" src="imagens/whastapp.png" alt="Meu whatsapp">
-                    </a>
-                    <a href="https://www.instagram.com/suec.exe/" target="_blank">
-                        <img class = "intro-cont" src="imagens/insta.png" alt="Meu instagram">
-                    </a>
-                </div>  
-            </nav>
-            <nav class="conhecimento">
+                <a href="">
+                    <img class = "intro-cont" src="imagens/whastapp.png" alt="Meu whatsapp">
+                </a>
+                <a href="https://www.instagram.com/suec.exe/" target="_blank">
+                    <img class = "intro-cont" src="imagens/insta.png" alt="Meu instagram">
+                </a>
+            </div>
+            <div>
                 <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
                 <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
                 <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
                 <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
-            </nav>  
-        </article>
-        <article class="proj">
+            </div>  
+        </section>
+        <section>
             <h2>Projetos</h2>
-            <div class="container">
                 <nav>
                     <img src="imagens/construcao.jpg" alt="">
                     <h3>Projeto 1</h3>
@@ -78,9 +65,8 @@
                     <h3>Projeto 3</h3>
                     <p>Descrição do projeto</p>
                 </nav>
-            </div>
-        </article>
-        <article class="form">
+        </section>
+        <section>
             <h2>Formações</h2>
             <nav>
                 <img src="imagens/ifsp_logo.jpg" alt="">
@@ -100,27 +86,16 @@
                     Descrição:
                 </p>
             </nav>
-        </article>
-        <article class="exp">
+        </section>
+        <section>
             <h2>Experiências</h2>
             <p>
                 Nenhuma Experiência profissional 
             </p>
-        </article>
+        </section>
     </main>
     <footer>
         <p>site criado por Matheus Francisco</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-    <script>
-        $(".btn-menu").click(function(){
-            $(".menu").fadeIn();
-            $(".btn-menu").fadeOut();
-        });
-        $(".fechar").click(function(){
-            $(".menu").fadeOut();
-            $(".btn-menu").fadeIn();
-        });
-    </script>
 </body>
 </html>
