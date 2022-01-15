@@ -6,21 +6,25 @@
 *{
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 img{
     width: 40px;
     height: 40px;
 }
 body{
+    position: relative;
     background-image: linear-gradient(45deg, rgb(0, 0, 0) 65%, rgb(22, 22, 22), rgb(75, 75, 75));
-    padding: 10px;
 }
 /*CABEÇALHO*/
 header{
-    position: relative;
+
+    top: 0;
+    position: sticky;
     text-align: right;
     text-decoration: none;
+    background-color: black;
+    padding: 5px 0; 
 }
 header a{
     padding: 4px;
@@ -29,4 +33,33 @@ header a{
     color: whitesmoke;
     font-size: 1.5em;
     font-weight: bold;
+}
+/*Sobre*/
+section.sobre{
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid tomato;
+    max-width: 500px;
+    padding: 5px;
+    
+}
+div.sobre{
+    display: inline-flex;
+    margin: 5px;
+}
+div.sobre img{
+    border-radius: 110px;
+    width: 120px;
+    height: 120px;
+}
+div.sobre p{
+    padding: 5px;
+}
+section.contatos{
+    border: 1px solid lime;
+    display: inline-block;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 500px;
+    padding: 5px;
 }
