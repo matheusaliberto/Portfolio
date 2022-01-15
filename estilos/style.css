@@ -13,7 +13,7 @@ img{
     height: 40px;
 }
 body{
-    background-image: linear-gradient(45deg, rgb(0, 0, 0) 65%, rgb(22, 22, 22), rgb(75, 75, 75));
+    background-image: linear-gradient(45deg, rgb(0, 0, 0) 50%, rgb(22, 22, 22), rgb(75, 75, 75));
 }
 /*CABEÇALHO*/
 header{
@@ -72,8 +72,18 @@ section.contatos{
     width: 45%;
     padding: 5px;
 }
-section.contatos a{
+.cont a{
+    border-radius: 50px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
     text-decoration: none;
     background-color: white;
+}
+.cont{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
 }
