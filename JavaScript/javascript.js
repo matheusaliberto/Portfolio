@@ -1,3 +1,6 @@
+function whatsapp(){
+    window.alert('Telefone para ligação ou whatsapp: +55 (16) 98848-1389')
+}
 $(".btn-menu").click(function(){
     $(".menu").fadeIn();
     $(".btn-menu").fadeOut();
