@@ -19,7 +19,9 @@ body{
 header{
 
     top: 0;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
     text-align: right;
     text-decoration: none;
     background-color: black;
@@ -36,7 +38,7 @@ header a{
 /*Projetos*/
 section.projetos{
     margin: 10px;
-    height: 80vh;
+    min-height: 80vh;
     border: 1px solid rgb(78, 78, 78);
     box-shadow: 0 0 3px whitesmoke;
 }
@@ -47,7 +49,6 @@ section.projetos div{
 }
 nav.projeto{
     padding-top: 10px;
-    z-index: -1;
     position: relative;
     width: 45%;
     margin: 10px 5px;
