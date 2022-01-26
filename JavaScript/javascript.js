@@ -13,3 +13,7 @@ $(".btn-item").click(function(){
     $(".menu").fadeOut();
     $(".btn-menu").fadeIn();
 });
+$(".menu").click(function(){
+    $(".menu").fadeOut();
+    $(".btn-menu").fadeIn();
+});
