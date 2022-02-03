@@ -9,11 +9,3 @@ $(".btn-close").click(function(){
     $(".menu").fadeOut();
     $(".btn-menu").fadeIn();
 });
-$(".btn-item").click(function(){
-    $(".menu").fadeOut();
-    $(".btn-menu").fadeIn();
-});
-$(".menu").click(function(){
-    $(".menu").fadeOut();
-    $(".btn-menu").fadeIn();
-});
