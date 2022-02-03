@@ -18,7 +18,7 @@ body{
     max-width: 100%;
 }
 h2{
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin-bottom: 10px;
 }
 /*CABEÇALHO*/
@@ -81,6 +81,30 @@ h2{
         padding: 1%;
         border-radius: 5px;
     }
+    /*Projetos*/
+    section.projetos{
+        padding: 10% 15px 15px;
+        min-height: 80vh;
+    }
+    section.projetos div{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+    }
+    nav.projeto{
+        padding-top: 10px;
+        position: relative;
+        width: 45%;
+        margin: 10px 5px;
+        text-align: center;
+        
+        border: 1px solid rgb(78, 78, 78);
+        box-shadow: 0 0 3px whitesmoke;
+    }
+    nav.projeto img{
+        width: 100px;
+        height: 100px;
+    }
 }
 @media screen and (min-width: 500px){
     header{
@@ -93,9 +117,6 @@ h2{
         font-size: 25px;
         height: 30px;
         box-shadow: white 1px 1px 5px;
-    }
-    .menu{
-
     }
     .btn-menu{
         display: none;
@@ -123,30 +144,30 @@ h2{
         border-radius: 5px;
         background-color: rgba(48, 48, 48, 0.404);
     }
-}
-/*Projetos*/
-section.projetos{
-    padding: 10% 15px 15px;
-    min-height: 80vh;
-}
-section.projetos div{
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
-}
-nav.projeto{
-    padding-top: 10px;
-    position: relative;
-    width: 45%;
-    margin: 10px 5px;
-    text-align: center;
-    
-    border: 1px solid rgb(78, 78, 78);
-    box-shadow: 0 0 3px whitesmoke;
-}
-nav.projeto img{
-    width: 100px;
-    height: 100px;
+    /*Projetos*/
+    section.projetos{
+        padding: 10% 15px 15px;
+        min-height: 50vh;
+    }
+    section.projetos div{
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: space-around;
+    }
+    nav.projeto{
+        padding-top: 10px;
+        position: relative;
+        width: 23%;
+        margin: 10px 5px;
+        text-align: center;
+        
+        border: 1px solid rgb(78, 78, 78);
+        box-shadow: 0 0 3px whitesmoke;
+    }
+    nav.projeto img{
+        width: 200px;
+        height: 200px;
+    }
 }
 /*Sobre*/
 .container{
