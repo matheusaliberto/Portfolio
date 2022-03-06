@@ -9,6 +9,9 @@
     color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 img{
     width: 40px;
     height: 40px;
@@ -155,21 +158,38 @@ h2{
     section.projetos div{
         flex-wrap: nowrap;
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
     }
     nav.projeto{
-        padding-top: 10px;
         position: relative;
-        width: 23%;
-        margin: 10px 5px;
+        width:350px;
+        height: auto;
+        margin: 20px;
+        padding: 15px;
         text-align: center;
-        
-        box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.7);
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
     }
     nav.projeto img{
-        margin: 0 8%;
-        min-width: 84%;
-        height: 60%;
+        border-radius: 5px;
+        width: 100%;
+        height: 55%;
+    }
+    .projeto h3{
+        font-size: 1.8em;
+    }
+    .projeto p{
+        color: rgb(204, 204, 204);
+    }
+    .projeto p a{
+        background-color: rgba(204, 204, 204, 0.151);
+        padding: 1px 2px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    .projeto p a:hover{
+        background-color: rgba(204, 204, 204, 0.658);
+        color: black;
     }
 }
 /*Sobre*/
