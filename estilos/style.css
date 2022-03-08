@@ -170,16 +170,6 @@ h2{
         display: flex;
         justify-content: flex-start;
     }
-    .projeto p a{
-        background-color: rgba(204, 204, 204, 0.151);
-        padding: 1px 2px;
-        border-radius: 5px;
-        font-weight: bold;
-    }
-    .projeto p a:hover{
-        background-color: rgba(204, 204, 204, 0.658);
-        color: black;
-    }
     /*Sobre*/
     .container{
         text-align:center;
@@ -226,6 +216,16 @@ nav.projeto img{
 }
 .projeto p{
     color: rgb(204, 204, 204);
+}
+.projeto p a{
+    background-color: rgba(204, 204, 204, 0.151);
+    padding: 1px 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.projeto p a:hover{
+    background-color: rgba(204, 204, 204, 0.658);
+    color: black;
 }
 /*Sobre*/
 .sobre h2{
