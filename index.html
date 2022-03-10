@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="imagens/Google-Noto-Emoji-Travel-Places-42598-rocket.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <title>Meu portfólio</title>
 </head>
 <body id='menu-inicio'>
@@ -28,12 +29,21 @@
         <section id ='menu-projetos' class="projetos">
             <h2>Projetos</h2>
             
-            <div class="container-projeto">
-                <nav class='projeto'>
-                    <a href="https://matheusaliberto.github.io/tip-calculator/" target="_blank"><img src="imagens/projetos/tip-calc-desktop.png" alt=""></a>
-                    <h3><a href="https://matheusaliberto.github.io/tip-calculator/" target="_blank">Calculadora de Gorjeta</a></h3>
-                    <p>Projeto criado a partir de um desafio feito por <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor</a>. Nesse projeto, foram utilizadas as linguagens HTML, CSS e JavaScript. Neste site também foi utilizado responsividade, tendo assim layouts de desktop e mobile diferentes. <a href="https://matheusaliberto.github.io/tip-calculator/" target="_blank">Clique aqui</a> para acessar.</p>
-                </nav>
+            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": false }'>
+                <div class="carousel-cell">
+                    <nav class='projeto'>
+                        <a href="https://matheusaliberto.github.io/tip-calculator/" target="_blank"><img src="imagens/projetos/tip-calc-desktop.png" alt=""></a>
+                        <h3><a href="https://matheusaliberto.github.io/tip-calculator/" target="_blank">Calculadora de Gorjeta</a></h3>
+                        <p>Projeto criado a partir de um desafio feito por <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor</a>. Nesse projeto, foram utilizadas as linguagens HTML, CSS e JavaScript. Neste site também foi utilizado responsividade, tendo assim layouts de desktop e mobile diferentes. <a href="https://matheusaliberto.github.io/tip-calculator/" target="_blank">Clique aqui</a> para acessar.</p>
+                    </nav>
+                </div>
+                <div class="carousel-cell">
+                    <nav class='projeto'>
+                        <a href="https://matheusaliberto.github.io/clone-netflix/" target="_blank"><img src="imagens/projetos/netflix-desktop.png" alt=""></a>
+                        <h3><a href="https://matheusaliberto.github.io/clone-netflix/" target="_blank">Landpage do Netflix</a></h3>
+                        <p>Projeto criado e inspirado no Netflix. Nesse projeto, foram utilizadas as linguagens HTML, CSS e o pluggin <a href="https://flickity.metafizzy.co/" target="_blank">Flickity</a>. Neste site também foram utilizadas a responsividade e carrosel. <a href="https://matheusaliberto.github.io/clone-netflix/" target="_blank">Clique aqui</a> para acessar.</p>
+                    </nav>
+                </div>
             </div>
         </section>
         <div class="container" id="menu-sobre">
@@ -80,7 +90,7 @@
     <footer>
         <p>site criado por <a href="https://github.com/matheusaliberto" target="_blank" class='link-rodape'>Matheus Francisco</a></p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src='JavaScript/javascript.js'></script>
 </body>
 </html>

@@ -1,261 +1,67 @@
+*{margin: 0;padding: 0;color: rgb(255, 255, 255);font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+a{text-decoration: none;}
+img{width: 40px;height: 40px;}
+body{background-image: linear-gradient(45deg, rgb(0, 0, 0) 50%, rgb(22, 22, 22), rgb(75, 75, 75));max-width: 100%;}
+h2{font-size: 2.2em;margin-bottom: 10px;}
 
-:root {
-    --cor00: black;
-
-}
-*{
-    margin: 0;
-    padding: 0;
-    color: rgb(255, 255, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-a{
-    text-decoration: none;
-}
-img{
-    width: 40px;
-    height: 40px;
-}
-body{
-    background-image: linear-gradient(45deg, rgb(0, 0, 0) 50%, rgb(22, 22, 22), rgb(75, 75, 75));
-    max-width: 100%;
-}
-h2{
-    font-size: 2.2em;
-    margin-bottom: 10px;
-}
-/*CABEÇALHO*/
 @media screen and (max-width: 620px){
-    header{
-        width: 100%;
-        float: left;
-        position: fixed;
-        z-index: 2; 
-    }
-    .btn-menu{
-        margin:10px 10px;
-        width: 56px;
-        height: 56px;
-        text-align: center;
-        font-size: larger;
-        float: right;
-        border-radius: 56px;
-        color: black;
-        background-color: rgb(0, 0, 0);
-        cursor: pointer;
-    }
-    .btn-close{
-        margin:0 10px;
-        border: none;
-        padding: 18px 30px 0 0;
-        width: 56px;
-        height: 56px;
-        text-align: center;
-        font-size: 2.7em;
-        float: right;
-        cursor: pointer;
-        color: rgb(0, 0, 0);
-        background-color: rgb(0, 0, 0);
-    }
-    .menu{
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        background-color: rgba(0,0,0, 0.9);
-        top: 0;
-        left: 0;
-        display: none;
-    }
-    .menu ul{
-        width: 100%;
-        float: left;
-        text-align: center;
-    }
-    .menu ul li{
-        margin: 5px 0;
-    }
-    .menu li a{
-        margin-bottom: 5px;
-        color: white;
-        font-size: 3em;
-        text-decoration: none;
     
-    }
-    .menu li a:hover{
-        background-color:  rgba(80, 1, 153, 0.274);
-        padding: 1%;
-        border-radius: 5px;
-        border: 1px solid white;
-    }
+    /*CABEÇALHO*/
+    header{width: 100%;float: left;position: fixed;z-index: 2; }
+    .btn-menu{margin:10px 10px;width: 56px;height: 56px;text-align: center;font-size: larger;float: right;border-radius: 56px;color: black;background-color: rgb(0, 0, 0);cursor: pointer;}
+    .btn-close{margin:0 10px;border: none;padding: 18px 30px 0 0;width: 56px;height: 56px;text-align: center;font-size: 2.7em;float: right;cursor: pointer;color: rgb(0, 0, 0);background-color: rgb(0, 0, 0);}
+    .menu{width: 100%;height: 100%;position: fixed;background-color: rgba(0,0,0, 0.9);top: 0;left: 0;display: none;}
+    .menu ul{width: 100%;float: left;text-align: center;}
+    .menu ul li{margin: 5px 0;}
+    .menu li a{margin-bottom: 5px;color: white;font-size: 3em;text-decoration: none;}
+    .menu li a:hover{background-color:rgba(80, 1, 153, 0.274);padding: 1%;border-radius: 5px;border: 1px solid white;}
+
     /*Projetos*/
-    section.projetos{
-        padding: 10% 15px 15px;
-        height: 80vh;
-    }
-    section.projetos div{
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: space-around;
-    }
+    section.projetos{padding: 10% 15px 15px;height: 80vh;}
     
     /*Sobre*/
-    .container{
-        text-align:center;
-        margin: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
-    
-    }
-    section.sobre{
-        margin: 5px;
-        width: 95%;
-        text-align: justify;
-        
-    }
-    section.contatos{
-        margin: 5px;
-        width: 95%;
-    }
+    .container{text-align:center;margin: 10px;display: flex;flex-wrap: wrap;justify-content: space-around;box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);}
+    section.sobre{margin: 5px;width: 95%;text-align: justify;}
+    section.contatos{margin: 5px;width: 95%;}
 }
 @media screen and (min-width: 620px){
-    header{
-        position: fixed;
-        width: 100%;
-        z-index: 2;
-        padding: 2%;
-        font-weight: bold;
-        background-color: rgb(0, 0, 0);
-        font-size: 25px;
-        height: 30px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    }
-    .menu{
-        display: block !important;
-    }
-    .btn-menu{
-        display: none;
-    }
-    .btn-close{
-        display: none;
-    }
-    .menu ul{
-        list-style: none;
-        display: flex;
-        justify-content: right;
-        padding-right: 20px;
-    }
-    .menu ul li{
-        margin: 0 1%;
-    }
-    .menu li a{
-        text-decoration: none;
-        padding: 10px;
 
+    /*Cabeçalho*/
+    header{position: fixed;width: 100%;z-index: 2;padding: 2%;font-weight: bold;background-color: rgb(0, 0, 0);font-size: 25px;height: 30px;border-bottom: 1px solid rgba(255, 255, 255, 0.3);}
+    .menu{display: block !important;}
+    .btn-menu{display: none;}
+    .btn-close{display: none;}
+    .menu ul{list-style: none;display: flex;justify-content: right;padding-right: 20px;}
+    .menu ul li{margin: 0 1%;}
+    .menu li a{text-decoration: none;padding: 10px;}
+    .menu li a:hover{border-radius: 5px;background-color: rgba(255, 255, 255, 0.3);border: none;}
     
-    }
-    .menu li a:hover{
-        border-radius: 5px;
-        background-color: rgba(255, 255, 255, 0.3);
-        border: none;         
-    }
     /*Projetos*/
-    section.projetos{
-        padding: 10% 15px 15px;
-        min-height: 50vh;
-    }
-    section.projetos div{
-        flex-wrap: nowrap;
-        display: flex;
-        justify-content: flex-start;
-    }
-    /*Sobre*/
-    .container{
-        text-align:center;
-        margin: 10px;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    section.projetos{padding: 10% 15px 15px;min-height: 50vh;}
     
-    }
-    section.sobre{
-        margin: 25px;
-        width: 50%;
-        text-align: justify;
-        
-    }
-    section.contatos{
-        margin: 25px;
-        width: 50%;
-    }
+    /*Sobre*/
+    .container{text-align:center;margin: 10px;display: flex;flex-wrap: nowrap;justify-content: space-around;box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);}
+    section.sobre{margin: 25px;width: 50%;text-align: justify;}
+    section.contatos{margin: 25px;width: 50%;}
 }
+
 /*Projetos*/
-.container-projeto{
-    display: flex;
-}
-nav.projeto{
-    flex-flow: row nowrap;
-    width:350px;
-    height: auto;
-    margin: 20px;
-    padding: 15px;
-    text-align: justify;
-    border-radius: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-nav.projeto img{
-    border-radius: 5px;
-    width: 100%;
-    height: 50%;
-}
-.projeto h3{
-    text-align: center;
-    font-size: 1.8em;
-}
+nav.projeto{flex-flow: row nowrap;width:350px;height: 300px;margin: 20px;padding: 15px;text-align: justify;border-radius: 5px;border: 1px solid rgba(255, 255, 255, 0.1);}
+nav.projeto img{border-radius: 5px;width: 100%;height: 50%;}
+.projeto h3{text-align: center;font-size: 1.8em;}
 .projeto p{
     color: rgb(204, 204, 204);
 }
-.projeto p a{
-    background-color: rgba(204, 204, 204, 0.151);
-    padding: 1px 2px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-.projeto p a:hover{
-    background-color: rgba(204, 204, 204, 0.658);
-    color: black;
-}
+.projeto p a{background-color: rgba(204, 204, 204, 0.151);padding: 1px 2px;border-radius: 5px;font-weight: bold;}
+.projeto p a:hover{background-color: rgba(204, 204, 204, 0.658);color: black;}
+
 /*Sobre*/
-.sobre h2{
-    text-align: center;
-}
-.sobre p{
-    text-indent: 20px;
-}
-.conhecimento h2{
-    font-size: 20px;
-}
-.cont a{
-    border-radius: 50px;
-    padding: 0;
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    text-decoration: none;
-    background-color: white;
-}
-.cont{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 0;
-}
-footer{
-    text-align: center;
-}
-.link-rodape{
-    text-decoration: none;
-    color:rgb(162, 0, 255);
-}
+.sobre h2{text-align: center;}
+.sobre p{text-indent: 20px;}
+.conhecimento h2{font-size: 20px;}
+.cont a{border-radius: 50px;padding: 0;width: 40px;height: 40px;margin-right: 10px;text-decoration: none;background-color: white;}
+.cont{display: flex;flex-flow: row wrap;justify-content: center;padding: 0;}
+
+/*Rodapé*/
+footer{text-align: center;}
+.link-rodape{text-decoration: none;color:rgb(162, 0, 255);}
