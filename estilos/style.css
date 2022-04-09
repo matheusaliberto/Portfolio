@@ -11,34 +11,17 @@ header .logo{text-align: center; padding: 12px 0;font-size: 1.5em; font-weight: 
 .menu ul li:hover{background-color: rgb(43, 43, 43);}
 
 /*PROJETOS*/
-.projetos{
-    padding-top: 10vh;
-    width: 100%;
-    min-height: 80vh;
-}
-.projetos h2{
-    font-size: 1.8em;
-    margin: 0 10px;
-}
+.projetos{padding-top: 10vh;width: 100%;min-height: 80vh;}
+.projetos h2{font-size: 1.8em;margin: 0 10px;}
+.projeto{width: 80%;min-height: 55vh;margin: 10px auto;text-align: center;padding: 30px; border: 1px solid rgba(255, 255, 255, 0.1);}
+.projeto img{width: 100%;}
+.projeto h3{font-size: 1.6em;}
+.projeto p{text-align: justify;color: rgb(199, 199, 199);}
+.projeto p a{color: rgb(184, 109, 255);}
 
-.projeto{
-    width: 80%;
-    min-height: 55vh;
-    margin: 10px auto;
-    text-align: center;
-    padding: 30px;   
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.projeto img{
-    width: 100%;
-}
-.projeto h3{
-    font-size: 1.6em;
-}
-.projeto p{
-    text-align: justify;
-    color: rgb(199, 199, 199);
-}
-.projeto p a{
-    color: rgb(184, 109, 255);
-}
+/*SOBRE*/
+.sobre{margin:10px;}
+.sobre h2{font-size: 1.8em;}
+.sobre p{text-align: justify;color: rgb(199, 199, 199);}
+
+/*CONTATOS*/
