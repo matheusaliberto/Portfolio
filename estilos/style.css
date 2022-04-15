@@ -4,10 +4,11 @@ ul{list-style: none;}
 body{background-image: linear-gradient(45deg, rgb(0, 0, 0) 50%, rgb(22, 22, 22), rgb(75, 75, 75));max-width: 100%;}
 
 /*CABECALHO*/
-header{width: 100%; background-color: black; z-index: 2; display:flex; position: fixed; justify-content: space-between;height: 10vh;}
-header .logo{text-align: center; padding: 12px 0;font-size: 1.5em; font-weight: bolder;align-items: center; height: 100%;}
-.menu ul{ display: flex; font-size: 1.2em; height: 100%; align-items: center;}
+header{width: 100%; background-color: black; z-index: 2; display:flex; position: fixed; justify-content: space-between;height: 10vh; padding: 0 10px;}
+header .logo{text-align: center; padding: 12px 0;font-size: 1.6em; font-weight: bolder;align-items: center; height: 100%; color: rgb(174, 0, 255);}
+.menu ul{ display: flex; font-size: 1.1em; height: 100%; align-items: center;}
 .menu ul li{ padding:10px; font-weight: bold;}
+.menu ul li a{color: rgb(199, 199, 199);}
 .menu ul li:hover{background-color: rgb(43, 43, 43);}
 
 /*PROJETOS*/
@@ -17,11 +18,27 @@ header .logo{text-align: center; padding: 12px 0;font-size: 1.5em; font-weight: 
 .projeto img{width: 100%;}
 .projeto h3{font-size: 1.6em;}
 .projeto p{text-align: justify;color: rgb(199, 199, 199);}
-.projeto p a{color: rgb(184, 109, 255);}
+.projeto p a{color: rgb(174, 0, 255);}
 
 /*SOBRE*/
-.sobre{margin:10px;}
+.sobre{margin:20px;}
+.sobre h2{text-align: center;}
 .sobre h2{font-size: 1.8em;}
 .sobre p{text-align: justify;color: rgb(199, 199, 199);}
+.sobre p a{color: rgb(174, 0, 255);}
 
 /*CONTATOS*/
+.cont img{width: 40px; background-color: white; border-radius: 20px;}
+.contatos{text-align: center;}
+.contatos h2{font-size: 1.8em;}
+
+/*CONHECIMENTO*/
+.conhecimento{text-align: center;}
+.conhecimento .imgs{padding-top: 10px;display: flex; justify-content: center;}
+.conhecimento img{width: 40px;}
+.imgs div{margin: 0 5px; padding: 5px;}
+.imgs div p{color:rgb(196, 196, 196);}
+
+/*RODAPÉ*/
+footer{margin-top: 20px;text-align: center;font-weight: bolder;border-top: 1px solid rgba(73, 73, 73, 0.473);padding: 5px;}
+.link-rodape{color: rgb(174, 0, 255);}
