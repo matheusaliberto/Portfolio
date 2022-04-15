@@ -3,6 +3,9 @@ a{text-decoration: none;}
 ul{list-style: none;}
 body{background-image: linear-gradient(45deg, rgb(0, 0, 0) 50%, rgb(22, 22, 22), rgb(75, 75, 75));max-width: 100%;}
 
+@media screen and (min-width:600px){
+    
+}
 /*CABECALHO*/
 header{width: 100%; background-color: black; z-index: 2; display:flex; position: fixed; justify-content: space-between;height: 10vh; padding: 0 10px;}
 header .logo{text-align: center; padding: 12px 0;font-size: 1.6em; font-weight: bolder;align-items: center; height: 100%; color: rgb(174, 0, 255);}
