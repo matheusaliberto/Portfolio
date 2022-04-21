@@ -3,21 +3,39 @@ a{text-decoration: none;}
 ul{list-style: none;}
 body{background-image: linear-gradient(45deg, rgb(0, 0, 0) 50%, rgb(22, 22, 22), rgb(75, 75, 75));max-width: 100%;}
 
-@media screen and (min-width:600px){
-   header{padding: 0 50px;} 
+@media screen and (min-width:800px){
+   /*CABECALHO*/
+   header{width: 100%; background-color: black; z-index: 2; display:flex; position: fixed; justify-content: space-between !important; padding:0 5% !important; box-sizing: border-box !important; height: 10vh !important;}
+   header .logo{font-size: 2em !important; padding: 2% 5% !important; box-sizing: border-box !important; height: 100%;}
+   nav.menu{width: 40%;}
+   .menu ul{ font-size: 1.5em !important;}
+   .menu ul li{padding: 5% !important; box-sizing: border-box !important; height: 100%;}
+   
+   /*PROJETOS*/
+   .projeto p{font-size: 1.1em;}
+
+   /*CONTAINER*/
+   .container{display: flex;}
+
+   /*SOBRE*/
+   .sobre{width: 50%; text-align: justify; text-indent: 20px;}
+   .sobre p{width: 70%; margin: auto; font-size: 1.3em;}
+
+   /*CONTATOS*/
+   .contatos{width: 50%; text-align: center;}
 }
 /*CABECALHO*/
-header{width: 100%; background-color: black; z-index: 2; display:flex; position: fixed; justify-content: space-between;height: 10vh; padding: 0 5px;}
-header .logo{text-align: center; padding: 12px 0;font-size: 1.6em; font-weight: bolder;align-items: center; height: 100%; color: rgb(174, 0, 255);}
+header{width: 100%; background-color: black; z-index: 2; display:flex; position: fixed; justify-content: space-around; padding:5px;}
+header .logo{text-align: center;font-size: 1.6em; font-weight: bolder;align-items: center; height: 100%; color: rgb(174, 0, 255);}
 .menu ul{ display: flex; font-size: 1.1em; height: 100%; align-items: center;}
-.menu ul li{ padding:10px; font-weight: bold;}
+.menu ul li{font-weight: bold; margin-right: 10px;}
 .menu ul li a{color: rgb(199, 199, 199);}
-.menu ul li:hover{background-color: rgb(43, 43, 43);}
+.menu ul li:hover{background-color: rgba(174, 0, 255, 0.199);}
 
 /*PROJETOS*/
-.projetos{padding-top: 10vh;width: 100%;min-height: 80vh;}
+.projetos{padding-top: 10vh;width: 100%;min-height: 60vh;}
 .projetos h2{font-size: 1.8em;margin: 0 10px;}
-.projeto{width: 80%;min-height: 55vh;margin: 10px auto;text-align: center;padding: 30px; border: 1px solid rgba(255, 255, 255, 0.1);}
+.projeto{width: 400px;min-height: 55vh; max-height: 55vh; margin: 10px auto;text-align: center;padding: 30px; border: 1px solid rgba(255, 255, 255, 0.1);}
 .projeto img{width: 100%;}
 .projeto h3{font-size: 1.6em;}
 .projeto p{text-align: justify;color: rgb(199, 199, 199);}
