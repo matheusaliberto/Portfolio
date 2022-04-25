@@ -35,7 +35,7 @@ header .logo{text-align: center;font-size: 1.6em; font-weight: bolder;align-item
 /*PROJETOS*/
 .projetos{padding-top: 10vh;width: 100%;min-height: 60vh;}
 .projetos h2{font-size: 1.8em;margin: 0 10px;}
-.projeto{width: 400px;min-height: 55vh; max-height: 55vh; margin: 10px auto;text-align: center;padding: 30px; border: 1px solid rgba(255, 255, 255, 0.1);}
+.projeto{width: 400px;min-height: 55vh; max-height: 55vh; margin: 10px auto;text-align: center;padding: 30px;}
 .projeto img{width: 100%;}
 .projeto h3{font-size: 1.6em;}
 .projeto p{text-align: justify;color: rgb(199, 199, 199);}
